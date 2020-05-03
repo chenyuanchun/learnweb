@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+}
+h1 {
+  color: green;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#mainHeader {
+  background: #333;
+  color: white;
+}
+#mainNav {
+  background: #ccc;
+  color: black;
+}
+#mainNav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#mainNav li {
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav li:hover {
+  background: #aaa;
+}
+#mainNav a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+}
+#jumbo {
+  background-image: url("../images/debian.jpg");
+  background-position: center;
+  min-height: 200px;
+  text-align: center;
+}
+#jumbo h1 {
+  color: white;
+  font-size: 40px;
+  line-height: 1.6em;
+  padding-top: 20px;
+}
+#sidebar {
+  float: left;
+  width: 30%;
+  border-right: 1px solid #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#main {
+  float: right;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
